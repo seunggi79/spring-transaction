@@ -30,6 +30,7 @@ public class TxBasicTest {
         basicService.tx();
         basicService.nonTx();
     }
+
     @TestConfiguration
     static class TxApplyBasicConfig {
         @Bean
